@@ -1,4 +1,8 @@
 <div class="todo">
   <h2>{{todo.name}}</h2>
   <p>{{todo.description}}</p>
+  <div class="actions">
+    <span (click)="completeTodo()">Done</span>
+    <span (click)="deleteTodo()">Delete</span>
+  </div>
 </div>

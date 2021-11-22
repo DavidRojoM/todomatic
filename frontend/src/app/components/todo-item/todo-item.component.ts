@@ -11,4 +11,12 @@ export class TodoItemComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  deleteTodo() {
+    console.log('Deleted', this.todo.id);
+  }
+
+  completeTodo() {
+    console.log('Completed', this.todo.id);
+  }
 }
