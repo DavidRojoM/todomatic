@@ -1,0 +1,11 @@
+.todo{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+
+  h2{
+    background-color: #888;
+  }
+}
